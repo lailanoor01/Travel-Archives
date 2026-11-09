@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Laila Noor | Digital Art Archive</title>
+
 <style>
 body {
   margin: 0;
@@ -13,9 +14,11 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
+
 h1 {
-  margin-bottom: 10px;
+  font-size: 36px;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -23,21 +26,32 @@ h1 {
   gap: 25px;
   margin-top: 40px;
 }
+
 .card {
   background: #222;
   padding: 15px;
   border-radius: 10px;
   width: 250px;
 }
-a {
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.card a {
   color: white;
   text-decoration: none;
 }
-a:hover {
+
+.card a:hover {
   color: #d8b4fe;
 }
 </style>
 </head>
+
 <body>
 
 <h1>Laila Noor</h1>
@@ -46,17 +60,27 @@ a:hover {
 <div class="gallery">
 
 <div class="card">
-<a href="aliens.html">Aliens</a>
+<a href="aliens.html">
+<img src="Aliens.PNG" alt="Aliens Artwork">
+<h3>Aliens</h3>
+</a>
 </div>
 
 <div class="card">
-<a href="bold.html">Bold</a>
+<a href="bold.html">
+<img src="Bold.PNG" alt="Bold Artwork">
+<h3>Bold</h3>
+</a>
 </div>
 
 <div class="card">
-<a href="concert.html">Concert</a>
+<a href="concert.html">
+<img src="Concert.PNG" alt="Concert Artwork">
+<h3>Concert</h3>
+</a>
 </div>
 
 </div>
+
 </body>
 </html>
