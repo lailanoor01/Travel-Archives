@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stress Artwork</title>
 
+<style>
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background: #080808;
+  color: white;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery img {
+  width: 18%;
+  min-width: 140px;
+  height: 300px;
+  object-fit: contain;
+  background: #292929;
+  padding: 8px;
+}
+
+@media (max-width: 600px) {
+  .gallery img {
+    width: 42%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<h1>Stress</h1>
+
+<div class="gallery">
+  <img src="Stress.PNG" alt="Stress 1">
+  <img src="Stress (1).PNG" alt="Stress 2">
+  <img src="Stress (2).PNG" alt="Stress 3">
+  <img src="Stress (3).PNG" alt="Stress 4">
+  <img src="Stress (4).PNG" alt="Stress 5">
+</div>
+
+</body>
+</html>
