@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Archives | AR & Interactive Art</title>
+
   <style>
     body {
       margin: 0;
@@ -14,298 +15,235 @@
       font-family: Arial, sans-serif;
       text-align: center;
     }
+
     h1 {
       font-weight: 400;
       letter-spacing: 3px;
     }
-    
-<style>
-  body {
-    margin: 0;
-    padding: 40px 20px;
-    background: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
 
-  h1 {
-    font-weight: 400;
-    letter-spacing: 3px;
-  }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 20px 15px;
+      max-width: 1000px;
+      width: 100%;
+      margin: 35px auto;
+    }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 15px;
-  max-width: 850px;
-  margin: 35px auto;
-}
+    .artwork {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      min-width: 0;
+    }
 
-.artwork {
-  width: 100%;
-  margin: 0;
-  text-align: center;
-}
+    .artwork img {
+      display: block;
+      width: 100%;
+      height: 125px;
+      object-fit: contain;
+      border: 1px solid #555;
+      padding: 4px;
+      box-sizing: border-box;
+      background: #111;
+    }
 
-.artwork img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  border: 1px solid #555;
-  padding: 4px;
-  box-sizing: border-box;
-}
+    .artwork p {
+      margin-top: 8px;
+    }
 
-  a {
-    color: #aaa;
-    text-decoration: none;
-  }
-</style>
+    a {
+      color: #aaa;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .artwork img {
+        height: 90px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
   <h1>AR & Interactive Art</h1>
 
-  <div class="artwork">
-  <a href="Alien.PNG">
-    <img src="AlienQR.PNG" alt="Alien QR artwork">
-  </a>
-  <p>Aliens</p>
-</div>
+  <div class="gallery">
 
-  <div class="artwork">
-  <a href="bold.PNG">
-    <img src="BoldQR.PNG" alt="Bold QR artwork">
-  </a>
-  <p>Bold</p>
-</div>
+    <div class="artwork">
+      <a href="Alien.PNG"><img src="AlienQR.png" alt="Alien QR artwork"></a>
+      <p>Aliens</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Concert.PNG">
-    <img src="concertQR.PNG" alt="Concert QR artwork">
-  </a>
-  <p>Concert</p>
-</div>
+    <div class="artwork">
+      <a href="bold.PNG"><img src="BoldQR.png" alt="Bold QR artwork"></a>
+      <p>Bold</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Curves.PNG">
-    <img src="CurvesQR.PNG" alt="Curves QR artwork">
-  </a>
-  <p>Curves</p>
-</div>
+    <div class="artwork">
+      <a href="Concert.PNG"><img src="concertQR.png" alt="Concert QR artwork"></a>
+      <p>Concert</p>
+    </div>
 
- <div class="artwork">
-    <a href="depression.html">
-      <img src="DepressionQR.jpg" alt="Depression QR artwork">
-    </a>
-    <p>Depression</p>
-  </div>
-  
-  <div class="artwork">
-  <a href="Destination.PNG">
-    <img src="DestinationQR.PNG" alt="Destination QR artwork">
-  </a>
-  <p>Destination</p>
-</div>
+    <div class="artwork">
+      <a href="Curves.PNG"><img src="CurvesQR.png" alt="Curves QR artwork"></a>
+      <p>Curves</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Displacement.PNG">
-    <img src="DisplacementQR.PNG" alt="Displacement QR artwork">
-  </a>
-  <p>Displacement</p>
-</div>
+    <div class="artwork">
+      <a href="depression.html"><img src="DepressionQR.jpg" alt="Depression QR artwork"></a>
+      <p>Depression</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Distortion.PNG">
-    <img src="DistortionQR.PNG" alt="Distortion QR artwork">
-  </a>
-  <p>Distortion</p>
-</div>
+    <div class="artwork">
+      <a href="Destination.PNG"><img src="DestinationQR.png" alt="Destination QR artwork"></a>
+      <p>Destination</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Extinct.PNG">
-    <img src="ExtinctQR.PNG" alt="Extinct QR artwork">
-  </a>
-  <p>extinct</p>
-</div>
+    <div class="artwork">
+      <a href="Displacement.PNG"><img src="DisplacementQR.png" alt="Displacement QR artwork"></a>
+      <p>Displacement</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Fashion.PNG">
-    <img src="FashionQR.PNG" alt="Fashion QR artwork">
-  </a>
-  <p>Fashion</p>
-</div>
-  
-  <div class="artwork">
-  <a href="Float.PNG">
-    <img src="FloatQR.PNG" alt=Float QR artwork">
-  </a>
-  <p>Float</p>
-</div>
+    <div class="artwork">
+      <a href="Distortion.PNG"><img src="DistortionQR.png" alt="Distortion QR artwork"></a>
+      <p>Distortion</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Flares.PNG">
-    <img src="FlaresQR.PNG" alt="Flares QR artwork">
-  </a>
-  <p>Flares</p>
-</div>
+    <div class="artwork">
+      <a href="Extinct.PNG"><img src="ExtinctQR.png" alt="Extinct QR artwork"></a>
+      <p>Extinct</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Grid.PNG">
-    <img src="GridQR.PNG" alt="Grid QR artwork">
-  </a>
-  <p>Grid</p>
-</div>
+    <div class="artwork">
+      <a href="Fashion.PNG"><img src="FashionQR.png" alt="Fashion QR artwork"></a>
+      <p>Fashion</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Happiness.PNG">
-    <img src="HappinessQR.PNG" alt="Happiness QR artwork">
-  </a>
-  <p>Happiness</p>
-</div>
+    <div class="artwork">
+      <a href="Float.PNG"><img src="FloatQR.png" alt="Float QR artwork"></a>
+      <p>Float</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Imposter.PNG">
-    <img src="ImposterQR.PNG" alt="Imposter QR artwork">
-  </a>
-  <p>Imposter</p>
-</div>
+    <div class="artwork">
+      <a href="Flares.PNG"><img src="FlaresQR.png" alt="Flares QR artwork"></a>
+      <p>Flares</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Lemon.PNG">
-    <img src="LemonQR.PNG" alt="Lemon QR artwork">
-  </a>
-  <p>Lemon</p>
-</div>
+    <div class="artwork">
+      <a href="Grid.PNG"><img src="GridQR.png" alt="Grid QR artwork"></a>
+      <p>Grid</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Lucidity.PNG">
-    <img src="LucidityQR.PNG" alt="Lucidity QR artwork">
-  </a>
-  <p>Lucidity</p>
-</div>
+    <div class="artwork">
+      <a href="Happiness.PNG"><img src="HappinessQR.png" alt="Happiness QR artwork"></a>
+      <p>Happiness</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Map.PNG">
-    <img src="MapQR.PNG" alt="Map QR artwork">
-  </a>
-  <p>Map</p>
-</div>
+    <div class="artwork">
+      <a href="Imposter.PNG"><img src="ImposterQR.png" alt="Imposter QR artwork"></a>
+      <p>Imposter</p>
+    </div>
 
-   <div class="artwork">
-  <a href="Motivation.PNG">
-    <img src="MotivationQR.PNG" alt="Motivation QR artwork">
-  </a>
-  <p>Motivation</p>
-</div>
+    <div class="artwork">
+      <a href="Lemon.PNG"><img src="LemonQR.png" alt="Lemon QR artwork"></a>
+      <p>Lemon</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Mosque.PNG">
-    <img src="MosqueQR.PNG" alt="Mosque QR artwork">
-  </a>
-  <p>Mosque</p>
-</div>
-  
-  <div class="artwork">
-  <a href="Meditation.PNG">
-    <img src="MeditationQR.PNG" alt="Meditation QR artwork">
-  </a>
-  <p>Meditation</p>
-</div>
+    <div class="artwork">
+      <a href="Lucidity.PNG"><img src="LucidityQR.png" alt="Lucidity QR artwork"></a>
+      <p>Lucidity</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Mirror.PNG">
-    <img src="MirrorQR.PNG" alt="Mirror QR artwork">
-  </a>
-  <p>Mirror</p>
-</div>
+    <div class="artwork">
+      <a href="Map.PNG"><img src="MapQR.png" alt="Map QR artwork"></a>
+      <p>Map</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Nude.PNG">
-    <img src="NudeQR.PNG" alt="Nude QR artwork">
-  </a>
-  <p>Nude</p>
-</div>
+    <div class="artwork">
+      <a href="Motivation.PNG"><img src="MotivationQR.png" alt="Motivation QR artwork"></a>
+      <p>Motivation</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Observation.PNG">
-    <img src="ObservationQR.PNG" alt="Observation QR artwork">
-  </a>
-  <p>Observation</p>
-</div>
+    <div class="artwork">
+      <a href="Mosque.PNG"><img src="MosqueQR.png" alt="Mosque QR artwork"></a>
+      <p>Mosque</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Peace.PNG">
-    <img src="PeaceQR.PNG" alt="Peace QR artwork">
-  </a>
-  <p>Peace</p>
-</div>
+    <div class="artwork">
+      <a href="Meditation.PNG"><img src="MeditationQR.png" alt="Meditation QR artwork"></a>
+      <p>Meditation</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Pink.PNG">
-    <img src="PinkQR.PNG" alt="Pink QR artwork">
-  </a>
-  <p>Pink</p>
-</div>
+    <div class="artwork">
+      <a href="Mirror.PNG"><img src="MirrorQR.png" alt="Mirror QR artwork"></a>
+      <p>Mirror</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Runway.PNG">
-    <img src="RunwayQR.PNG" alt="Runway QR artwork">
-  </a>
-  <p>Runway</p>
-</div>
+    <div class="artwork">
+      <a href="Nude.PNG"><img src="NudeQR.png" alt="Nude QR artwork"></a>
+      <p>Nude</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Seethrough.PNG">
-    <img src="SeethroughQR.PNG" alt="Seethrough QR artwork">
-  </a>
-  <p>See-Through</p>
-</div>
+    <div class="artwork">
+      <a href="Observation.PNG"><img src="ObservationQR.png" alt="Observation QR artwork"></a>
+      <p>Observation</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Selfreflection.PNG">
-    <img src="SelfreflectionQR.PNG" alt="selfreflection QR artwork">
-  </a>
-  <p>Self-Reflection</p>
-</div>
+    <div class="artwork">
+      <a href="Peace.PNG"><img src="PeaceQR.png" alt="Peace QR artwork"></a>
+      <p>Peace</p>
+    </div>
 
-  <div class="artwork">
-  <a href="Silence.PNG">
-    <img src="SilenceQR.PNG" alt="Silence QR artwork">
-  </a>
-  <p>Silence</p>
-</div>
+    <div class="artwork">
+      <a href="Pink.PNG"><img src="PinkQR.png" alt="Pink QR artwork"></a>
+      <p>Pink</p>
+    </div>
 
-  <div class="artwork">
-    <a href="stress.html">
-      <img src="StressQR.jpg" alt="Stress QR artwork">
-    </a>
-    <p>Stress</p>
+    <div class="artwork">
+      <a href="Runway.PNG"><img src="RunwayQR.png" alt="Runway QR artwork"></a>
+      <p>Runway</p>
+    </div>
+
+    <div class="artwork">
+      <a href="Seethrough.PNG"><img src="SeethroughQR.png" alt="Seethrough QR artwork"></a>
+      <p>See-Through</p>
+    </div>
+
+    <div class="artwork">
+      <a href="Selfreflection.PNG"><img src="SelfreflectionQR.png" alt="Self-reflection QR artwork"></a>
+      <p>Self-Reflection</p>
+    </div>
+
+    <div class="artwork">
+      <a href="Silence.PNG"><img src="SilenceQR.png" alt="Silence QR artwork"></a>
+      <p>Silence</p>
+    </div>
+
+    <div class="artwork">
+      <a href="stress.html"><img src="StressQR.jpg" alt="Stress QR artwork"></a>
+      <p>Stress</p>
+    </div>
+
+    <div class="artwork">
+      <a href="Style.PNG"><img src="StyleQR.png" alt="Style QR artwork"></a>
+      <p>Style</p>
+    </div>
+
+    <div class="artwork">
+      <a href="Thoughts.PNG"><img src="thoughtsQR.png" alt="Thoughts QR artwork"></a>
+      <p>Thoughts</p>
+    </div>
+
+    <div class="artwork">
+      <a href="Unsatisfied.PNG"><img src="UnsatisfiedQR.png" alt="Unsatisfied QR artwork"></a>
+      <p>Unsatisfied</p>
+    </div>
+
   </div>
 
-  <div class="artwork">
-  <a href="Style.PNG">
-    <img src="StyleQR.PNG" alt="Style QR artwork">
-  </a>
-  <p>Style</p>
-</div>
-
-  <div class="artwork">
-  <a href="Thoughts.PNG">
-    <img src="thoughtsQR.PNG" alt="thoughts QR artwork">
-  </a>
-  <p>Thoughts</p>
-</div>
-
-  <div class="artwork">
-  <a href="Unsatisfied.PNG">
-    <img src="UnsatisfiedQR.PNG" alt="Unsatisfied QR artwork">
-  </a>
-  <p>Unsatisfied</p>
-</div>
-  
-  
   <p><a href="index.html">Back to Portfolio</a></p>
+
 </body>
 </html>
