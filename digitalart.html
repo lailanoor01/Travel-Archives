@@ -7,6 +7,10 @@
 <title>Laila Noor | Thesis</title>
 
 <style>
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background: #080808;
@@ -36,15 +40,21 @@ a {
   letter-spacing: 2px;
 }
 
-.card {
-  margin: 50px auto;
-  padding: 30px;
-  max-width: 500px;
+.presentation {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 650px;
   border: 1px solid #444;
 }
 
-.card h3 {
-  font-weight: normal;
+.download {
+  margin: 25px;
+  font-family: Arial, sans-serif;
 }
 
 footer {
@@ -64,10 +74,21 @@ footer {
   <a class="back" href="index.html">← BACK TO PORTFOLIO</a>
 </header>
 
-<div class="card">
-  <a href="HIARt.pptx" target="_blank">
-    <h3>HIARt – MPhil Research Presentation</h3>
-  </a>
+<div class="presentation">
+
+  <h2>HIARt – MPhil Research Presentation</h2>
+
+  <iframe
+    src="https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Flailanoor01.github.io%2FTravel-Archives%2FHIARt.pptx"
+    frameborder="0">
+  </iframe>
+
+  <p class="download">
+    <a href="HIARt.pptx" target="_blank">
+      Download Presentation
+    </a>
+  </p>
+
 </div>
 
 <footer>
@@ -76,4 +97,3 @@ footer {
 
 </body>
 </html>
-
